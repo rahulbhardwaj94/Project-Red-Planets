@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.headerr{
+    background-color: rgb(255, 129, 97) ;
+    background: black;
+    animation: mymove 5s;
+}
+
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: black;}
+}
+
+
+.globe_logo{
+    background-color: black;
+}
+.red{
+    background-color: black;
+}
+.planet{
+    background: black;
+}
+.logo{
+    color: red;
+    font-size: 70px;
+    font-family: 'Hanalei', cursive;
+    position: relative;
+    display: inline;
+    background-blend-mode: luminosity;
+}
+
+
+.logo .red{
+    background: none;
+}
+
+li{
+    display: inline-flex;
+}
+
+.navbar{
+    display: inline-table;
+    margin-top: 0;
+}
+
+li a{
+    margin-left: 200px;
+    color: white;
+    float: right;
+}
+
+ul{
+    margin-left: 350px;
+    margin-top: 0;
+    align-items: flex-start ;
+    background: none;
+}
+
+
+li a:hover{
+    color: red;
+    background: white;
+}
+
+
+h1:nth-child(2){
+    color: white;
+}
+
+span:nth-child(2){
+    color: white;
+}
+
+
+
+.content{
+    width: 1850px;
+    height: 850px;
+    background: url('Images/SpaceDesignPixTeller-PixTeller\(1\).png');
+    z-index: 2;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.top_heading{
+    background: none;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    position: relative;
+    margin-top: 8em;
+    margin-left: 4em;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 p{
+    background: none;
+}
+
+
+.top_heading p:nth-child(2){
+    color: red;
+    padding-left: 7px;
+    padding-right: 5px;
+}
+
+.heading{
+    margin-top: 1em;
+    margin-left: 7em;
+    color: white;
+    background: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.heading2{
+    margin: 0;
+    margin-left: 7em;
+}
+
+.heading2 span{
+    color: red;
+    background: none;
+}
+
+
+.searchbox{
+    margin-top: 2em;
+    margin-left: 10em;
+    padding-left: 15px;
+    width: 600px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+}
+
+.searchdropdown{
+    display: flex;
+    width: 5px;
+    height: 5px;
+    flex-wrap: nowrap;
+} 
+
+.icon{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: black ;
+    color: white;
+}
+
+.searchbox:hover, 
+.searchbox:focus{
+    outline: none;
+    border-color: rgb(226, 66, 38);
+    box-shadow: 0 0 10px #dd3125;
+
+}
+
+.icon:active{
+    color: red;
+}
